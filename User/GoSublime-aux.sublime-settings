@@ -1,0 +1,24 @@
+{
+	"9o.hist.9o":
+	[
+		"./linkedList",
+		"mkdir hashTableSearch",
+		"cd hashTableSearch",
+		"go mod init hashTableSearch",
+		"./hashTableSearch",
+		"aa",
+		"./recusiveCall",
+		"cd ../",
+		"mkdir quickSort",
+		"cd quickSort",
+		"go mod init quickSort",
+		"touch main.go",
+		"./fibonacciRec",
+		"mkdir ../knapsackDP",
+		"knapsackDP",
+		"go build"
+	],
+	"ann": "a18.11.28-1",
+	"install_version": "r18.11.28-1",
+	"version": "r18.11.28-1"
+}

@@ -1,0 +1,19 @@
+
+** 2019-05-25 14:43:27.787898 **:
+agent#007: GoSublime: Traceback (most recent call last):
+  File "/Users/teke/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 287, in _handle_recv
+    self._handle_recv_ipc(v)
+  File "/Users/teke/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 272, in _handle_recv_ipc
+    self._notify_ready()
+  File "/Users/teke/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 269, in _notify_ready
+    self.mg.agent_ready(self)
+  File "/Users/teke/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 356, in agent_ready
+    self.on_activated(gs.active_view())
+  File "/Users/teke/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 459, in on_activated
+    self.queue(view=view, actions=[actions.ViewActivated])
+  File "/Users/teke/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 371, in queue
+    self.agent.queue(actions=actions, view=view, delay=delay)
+  File "/Users/teke/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 205, in queue
+    p = (act, view.id())
+AttributeError: 'NoneType' object has no attribute 'id'
+--------------------------------

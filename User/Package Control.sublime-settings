@@ -1,0 +1,29 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Agila Theme",
+		"DashDoc",
+		"DevDocs offline",
+		"Emmet",
+		"ESLint-Formatter",
+		"GitGutter",
+		"JsFormat",
+		"Package Control",
+		"PHP Companion",
+		"phpfmt",
+		"Pomodoro",
+		"SqlBeautifier",
+		"Statusbar Path",
+		"SublimeLinter",
+		"SublimeLinter-eslint",
+		"SublimeLinter-phpcs",
+		"SyncedSideBar",
+		"Theme - Hero",
+		"Theme - TwoDark",
+		"Vue Syntax Highlight"
+	]
+}

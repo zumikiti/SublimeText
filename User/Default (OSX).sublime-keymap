@@ -1,0 +1,60 @@
+[
+  {
+    "keys": ["super+shift+h"],
+    "command": "format_eslint",
+    "context": [
+      {
+        "key": "selector",
+        "operator": "equal",
+        "operand": "source.js"
+      }
+    ]
+  },
+  {
+    "keys": ["super+shift+h"],
+    "command": "fmt_now",
+    "context": [
+      {
+        "key": "selector",
+        "operator": "equal",
+        "operand": "source.php"
+      }
+    ]
+  },
+  {
+    "keys": ["f5"],
+    "command": "import_namespace",
+    "context": [
+      {
+        "key": "selector",
+        "operator": "equal",
+        "operand": "source.php"
+      }
+    ]
+  },
+  {
+    "keys": ["f6"],
+    "command": "find_use",
+    "context": [
+      {
+        "key": "selector",
+        "operator": "equal",
+        "operand": "source.php"
+      }
+    ]
+  },
+  { 
+    "keys": ["command+m"],
+    "command": "move_to",
+    "args": {
+      "to": "brackets"
+    }
+  },
+  { "keys": ["super+j"], "command": "swap_line_up" },
+  { "keys": ["super+k"], "command": "swap_line_down" },
+
+  // devdoc offline
+  { "keys": ["ctrl+d"], "command": "devdocs_show_definition"},
+  { "keys": ["ctrl+s"], "command": "devdocs_search_symbol"},
+
+]

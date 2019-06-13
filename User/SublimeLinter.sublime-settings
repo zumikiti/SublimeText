@@ -1,0 +1,39 @@
+{
+    "syntax_map": {
+        "html (django)": "html",
+        "html (rails)": "html",
+        "html 5": "html",
+        "javascript (babel)": "javascript",
+        "magicpython": "python",
+        "php": "html",
+        "python django": "python",
+        "pythonimproved": "python",
+        "vue": "javascript",
+        "vue component": "javascript",
+        "html": "javascript",
+    },
+
+    "debug": true,
+
+    "linters": {
+        "eslint": {
+            "selector": "text.html.vue, source.js - meta.attribute-with-value",
+            "env": {
+                "PATH": "/Users/higashiizumi/.nvm/versions/node/v10.13.0/bin"
+            }
+        },
+        "phpcs": {
+            "executable": "${folder}/vendor/bin/phpcs",
+            "args": "--standard=${folder}/phpcs.xml"
+        }
+    },
+
+    "paths": {
+        "linux": [],
+        "osx": [
+            "/Users/higashiizumi/.nvm/versions/node/v10.13.0/bin",
+        ],
+        "windows": []
+    }
+
+}
